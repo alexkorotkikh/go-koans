@@ -1,7 +1,5 @@
 package go_koans
 
-import "fmt"
-
 func aboutEnumeration() {
 	{
 		var concatenated string
@@ -13,7 +11,6 @@ func aboutEnumeration() {
 			concatenated += v
 		}
 
-		fmt.Print(concatenated)
 		assert(concatenated == "hello world!") // for loops have a modern variation
 		assert(total == 3)                     // which offers both a value and an index
 	}
